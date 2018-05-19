@@ -8,68 +8,30 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need to install these on your system first:
+You need to install these on your system first:<br />
 [Node](https://nodejs.org/en/)<br />
-express
-body-parser
-mongoose
+[Mongodb](https://www.mongodb.com)<br />
+express<br />
+body-parser<br />
+mongoose<br />
 
 ### Installing
 
-
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+1) Get project from Github<br />
+$ git clone https://github.com/aslongassun/nodejs-leaderboard.git<br />
+2) Download and install NodeJS and Mongodb
+[Node](https://nodejs.org/en/)<br />
+[Mongodb](https://www.mongodb.com)<br />
+3) Go to project folder and run<br/>
+npm init<br/>
+npm install express --save<br/>
+npm install mongoose --save<br/>
+npm install body-parser --save<br/>
+4) Config Url to connect to mongodb in db.js
+You can use [mLab](https://mlab.com/) as a cloud-hosted service for running MongoDB<br />
+By resister an account then create a databsename on mLab, get the Connect URL and put to db.js<br />
+5) Run the server
+At the project folder run this commandline:<br/>
+node server.js
+6) Now you can see the server running<br/>
+Express server listening on port 3000
