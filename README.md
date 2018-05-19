@@ -30,5 +30,5 @@ By resister an account then create a databsename on mLab, get the Connect URL an
 5) Run the server
 At the project folder run this commandline:<br/>
 node server.js
-6) Now you can see the server running<br/>
+6) Now you can see the server is running<br/>
 Express server listening on port 3000
