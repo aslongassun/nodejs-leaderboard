@@ -8,12 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need to install these on your system first:<br />
-[Node](https://nodejs.org/en/)<br />
-[Mongodb](https://www.mongodb.com)<br />
-express<br />
-body-parser<br />
-mongoose<br />
+- You need to install these on your system first:<br />
+- [Node](https://nodejs.org/en/)<br />
+- [Mongodb](https://www.mongodb.com)<br />
 
 ### Installing
 
